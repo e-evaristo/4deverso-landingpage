@@ -2,7 +2,7 @@
 
 Projeto de uma Landing Page para estudos de HTML e CSS da Trade4Dev's. 😁
 
-## [DEMO](https://imaginative-melba-2f17d5.netlify.app/) 🚀
+## [DEMO](https://sparkling-twilight-1ee798.netlify.app/) 🚀
 
 ### Screenshot 📷
 
