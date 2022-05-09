@@ -1,0 +1,100 @@
+@media screen and (max-width: 470px) {
+    .box-spot {
+        flex-grow: 1;
+    }
+
+    .box-spot .btns{
+        flex-direction: column;
+    }
+
+    .box-spot button {
+        padding: 20px 25px;
+        border-radius: 20px;
+        font-size: 14px; 
+    }
+}
+
+@media screen and (max-width: 702px) {
+    
+    header .header-inner ul {
+        display: none;
+    }
+
+    header .header-inner ul.active {
+        flex-direction: column;
+        margin-top: 30px;
+        padding: 0;
+        display: flex;
+    }
+
+    .signup-link {
+        display: none;
+    }
+
+    header .header-inner ul li {
+        margin-bottom: 20px;
+    }
+
+    .logo svg {
+        display: block;
+    }
+
+    aside h2, h3 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 2rem;
+        line-height: 5px;
+    }
+    
+    aside h2:first-child {
+        color: #dd007d;
+        font-weight: 400;
+    }
+
+    aside p {
+        max-width: 90%;
+        padding-left: 5%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .social-list {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    header .header-inner {
+        flex-direction: column;
+    }
+
+    main .main-inner {
+        flex-direction: column;
+    }
+
+    aside {
+        margin: 0 auto;
+    }
+
+    aside form {
+        margin: 0 auto;
+        width: 95%;
+        margin-bottom: 4rem;
+    }
+
+    aside form button {
+        width: 100%;
+    }
+
+    main img {
+        display: none;
+    }
+
+    .box-spot {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
